@@ -20,20 +20,20 @@ export default class Carousel extends React.Component {
     }
 
     updateSlidePosition() {
-        let slides = document.getElementsByClassName('carousel-slide');
-        let currBtn = document.getElementsByClassName('carousel-nav-item');
+        let currSlideIndex;
 
-        if(this.index === this.state.currSlideIndex) {
-            console.log('this works');
-        }
-        //let slideTrigger = this.carouselBtn.current;
-        
-        
-        
-    }
+        // if(this.state.currSlideIndex === data.slides.length-1){
+        //     currSlideIndex = 0;
+        // } else {
+        //     currSlideIndex = this.state.currSlideIndex+1;
+        // }
 
-    componentDidMount() {
-        //console.log(data.slides);
+        // this.setState({
+        //     currSlideIndex: currSlideIndex
+        // })
+
+        console.log(this.id);
+        
     }
     render() {
         return (
