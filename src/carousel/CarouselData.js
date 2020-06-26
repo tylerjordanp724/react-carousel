@@ -1,4 +1,5 @@
 const data = {
+    carousel_title: 'Carousel Title',
     slides:[
         {
             title: 'Slide 1',

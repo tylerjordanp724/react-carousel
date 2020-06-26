@@ -16,6 +16,27 @@
     border: 2px solid white;
     border-radius: 8px;
     position: relative;
+    overflow: hidden;
+    display: flex;
+
+    .carousel-slide {
+        color: white;
+        padding: 8px;
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    #carousel-slide-1 { 
+        background: magenta;
+    }
+
+    #carousel-slide-2 { 
+        background: blue;
+    }
+
+    #carousel-slide-3 { 
+        background: orange;
+    }
 }
 
 .carousel-container .carousel-nav {
