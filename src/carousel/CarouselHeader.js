@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
-
-export default class CarouselHeader extends React.Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            text: this.props.carouselTitle
-        }
-    }
-    render() {
-        return (
-            <div className="carousel-header">
-                <h2>{this.state.text}</h2>
-            </div>
-        );
-    }
+import React from "react";
+const CarouselHeader = ({title}) => {
+   
+    return (
+        <div className="carousel-header">
+            <h1>{title}</h1>
+        </div>
+    );
+    
 }
+
+export default CarouselHeader;
